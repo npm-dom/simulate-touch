@@ -30,7 +30,7 @@ function dispatch (touchEventType) {
       null);
 
     touchEvent.changedTouches = touchEvent.touches = [{
-      identifier: event.identifier,
+      identifier: Date.now() + Math.random(),
       clientX: event.clientX,
       clientY: event.clientY,
       pageX: event.pageX,

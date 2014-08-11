@@ -22,6 +22,8 @@ function dispatch (touchEventType) {
       event.screenY,    // screenY
       event.clientX,    // clientX
       event.clientY,    // clientY
+      event.pageX,    // pageX
+      event.pageY,    // pageY
       false,            // ctrlKey
       false,            // altKey
       false,            // shiftKey

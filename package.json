@@ -1,0 +1,28 @@
+{
+  "name": "simulate-touch",
+  "version": "0.0.0",
+  "description": "Fire touch events when corresponding mouse events fire",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test"
+  },
+  "keywords": [
+    "mouse",
+    "dom",
+    "touch",
+    "event",
+    "events"
+  ],
+  "repository": {
+    "url": "git@github.com:npm-dom/simulate-touch.git",
+    "type": "git"
+  },
+  "author": "azer",
+  "license": "BSD",
+  "dependencies": {
+    "dom-event": "0.0.0"
+  },
+  "devDependencies": {
+    "prova": "^1.14.0"
+  }
+}

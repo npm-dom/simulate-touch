@@ -29,6 +29,16 @@ function dispatch (touchEventType) {
       0,                // button
       null);
 
+    touchEvent.changedTouches = touchEvent.touches = [{
+      identifier: event.identifier,
+      clientX: event.clientX,
+      clientY: event.clientY,
+      pageX: event.pageX,
+      pageY: event.pageY,
+      screenX: event.screenX,
+      screenY: event.screenY
+    }];
+
     event.target.dispatchEvent(touchEvent);
   };
 }

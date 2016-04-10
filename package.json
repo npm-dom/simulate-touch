@@ -1,6 +1,6 @@
 {
   "name": "simulate-touch",
-  "version": "0.0.4",
+  "version": "1.0.0",
   "description": "Fire touch events when corresponding mouse events fire",
   "main": "index.js",
   "scripts": {

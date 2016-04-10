@@ -4,7 +4,7 @@
   "description": "Fire touch events when corresponding mouse events fire",
   "main": "index.js",
   "scripts": {
-    "test": "node test -b"
+    "test": "browserify test.js | tape-run --browser=safari"
   },
   "keywords": [
     "mouse",
@@ -20,9 +20,11 @@
   "author": "azer",
   "license": "BSD",
   "dependencies": {
-    "dom-event": "0.0.0"
+    "dom-event": "~1.0.0"
   },
   "devDependencies": {
-    "prova": "^1.14.0"
+    "browserify": "13.0.0",
+    "tape": "4.5.1",
+    "tape-run": "2.1.3"
   }
 }
